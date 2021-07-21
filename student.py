@@ -11,6 +11,6 @@ class UniversityStudent(models.Model):
      address = fields.Text('address')
      birthday = fields.Date('birthday')
      registrationDate = fields.DateTime('registration date')
-     email = fields.Char()
-     phone = fields.Char()
+     email = fields.Char('Email')
+     phone = fields.Char('phone')
 
